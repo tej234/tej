@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignmet 1</title>
+        <meta charset="UTF-8">
+    </head> 
+
+<body>
+<h1>
+    CS 5130 Advanced Web Applications and Services Development
+</h1>
+
+<h3>
+    <label for ="name">Name: </label> <input type="text" id="name" name="name" placeholder="Name" required> <br>
+</h3>
+
+<h3>
+    <label for ="700#">700#: </label> <input type="number" id="700#" name="700#" placeholder="ID" required> <br>
+</h3>
+
+<h3>
+    <label for ="email">Email: </label> <input type="email" id="email" name="email" placeholder="Email" required> <br>
+</h3>
+
+<h3>
+    <label for="semester">Semester:</label> <input list="semesters" name="semester" id="semester" placeholder="Select one" required>
+</h3>
+
+<datalist id="semesters">
+    <option value="Fall">
+    <option value="Spring">
+    <option value="Summer">
+</datalist>
+
+<div class="slidecontainer">
+    <p>Select year: <input type="range" min="2012" max="2025" value="0" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"> </p>
+</div>
+
+<h4>
+    <label for ="group_name">Group name: </label> <input type="text" id="group_name" name="group_name" placeholder="Group name" required> <br>
+    <button>Submit</button>
+</h4>
+
+<table style="border: 1px solid black; border-collapse: collapse;">
+
+<tr>
+    <th style="border: 1px solid black;">Sl.no</th>
+    <th style="border: 1px solid black;">Group name</th>
+    <th style="border: 1px solid black;">Group members</th>
+    <th style="border: 1px solid black;">Project topic</th>
+</tr>
+
+    <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;" rowspan="2">1</td>
+    <td style="border: 1px solid black;" rowspan="2">Group 1</td>
+    <td style="border: 1px solid black;">Tejsamanth Katikala</td>
+    <td style="border: 1px solid black;" rowspan="2">Topic 1</td>
+
+<tr>
+    <td style="border: 1px solid black;"> Member 2</td>
+<tr>
+    <td style="border: 1px solid black;" rowspan="2">2</td>
+    <td style="border: 1px solid black;" rowspan="2">Group 2</td>
+    <td style="border: 1px solid black;">Member 1</td>
+    <td style="border: 1px solid black;" rowspan="2">Topic 2</td>
+<tr>
+    <td style="border: 1px solid black;"> Member 2</td>
+<tr>
+    <td style="border: 1px solid black;" rowspan="2">3</td>
+    <td style="border: 1px solid black;" rowspan="2">Group 3</td>
+    <td style="border: 1px solid black;">Member 1</td>
+    <td style="border: 1px solid black;" rowspan="2">Topic 3</td>
+<tr>
+    <td style="border: 1px solid black;"> Member 2</td>
+</table>
+<h2>COURSE CONTENT OUTLINE</h2>
+<ol type="a">
+    <li>Textbooks: <strong> There is no required textbook for this course.</strong> Students are encouraged to study instructional material and tutorials online</li>
+    <li>Reference Materials: 
+        <ul style="list-style-type:number;">
+        <li>Internet & World Wide Web How to Program (5<sup>th</sup> ed.), Deitel, Deitel, and Deitel, Prentice Hall, 2012.<br>
+        <img src="https://deitel.com/wp-content/uploads/2020/01/internet-and-world-wide-web-how-to-program.jpg" alt="Internet and world wide web" width="100" height="110"></li>
+        <li>PHP and MySQL for Dynamic Web Sites: Visual QuickPro Guide by Larry Ullman, Peachpit Press, 2011, ISBN 978-0321784070.<br>
+        <img src="https://larryullman.com/images/phpmysql4.jpg" alt="php and mysql for dynamic websites" width="100" height="110"></li>
+    <li> Resources:
+        <ul style="list-style-type:disc;">
+        <li>HTML:<a href="http://www.w3schools.com/html/default.asp" target="_blank">Click here to navigate to reference website</a></li>
+        <li>HTML5 validation service:<a href="https://validator.w3.org/#validate-by-upload" target="_blank">Click here to navigate to reference website</a></li>
+        <li>Javascript:<a href="http://www.w3schools.com/js/default.asp" target="_blank">Click here to navigate to reference website</a></li>
+        <li>PHP Manual:<a href="http://www.php.net/manual/en/" target="_blank">Click here to navigate to reference website</a></li>
+        </ul>
+        </ul>
+    </li>
+<li>Topics to be covered:
+    <ul style="list-style-type:number;">
+    <li>Intoduction to HTML and CSS</li>
+    <li>Javascript</li>
+    <li>PHP</li>
+    </ul>
+</li>
+</ol>
+<h2>Code examples in chapter 2 and 3</h2>
+<details>
+<summary>Chapter 2</summary>
+    <ol type="1">
+    <li>list:<a href="ch02/list.html" target="_blank">Click here for code examples</a></li>
+    <li>Form:<a href="ch02/form.html" target="_blank">Click here for code examples</a></li>
+    <li>Table 1:<a href="ch02/table2.html" target="_blank">Click here for code examples</a></li>
+    </ol>
+</details>
+<details>
+<summary>Chapter 3</summary>
+    <ol type="1">
+    <li>NewFormInputTypes:<a href="ch03/fig03_01/NewFormInputTypes.html" target="_blank">Click here for code examples</a></li>
+    <li>Autocomplete:<a href="ch03/fig03_17/autocomplete.html" target="_blank">Click here for code examples</a></li>
+    <li>SectionElements:<a href="ch03/fig03_18/SectionElements.html" target="_blank">Click here for code examples</a></li>
+    </ol>
+</details>
+</body>
+</html>
